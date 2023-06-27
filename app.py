@@ -12,8 +12,6 @@ from langchain.chat_models import ChatOpenAI, ChatAnthropic
 import faiss
 from agent import AutoGPT
 
-
-
 app = Flask(__name__)
 
 @app.route('/research', methods=['POST'])

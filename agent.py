@@ -26,7 +26,6 @@ from langchain.tools.base import BaseTool
 from langchain.tools.human.tool import HumanInputRun
 from langchain.vectorstores.base import VectorStoreRetriever
 
-
 class AutoGPT:
     """Agent class for interacting with Auto-GPT."""
 
